@@ -1,0 +1,45 @@
+ # Preprocessor Directive
+ The Preprocessor are the Directive which give instruction to the compiler to the
+ compiler to preprocess some code before actual compilation starts
+ . the directive begins with (#)
+ . the actual code is compiled by the compiler only
+ # include
+ directive tells the compiler to include file in the source code
+ like: #include<iostream>
+    : include <algorithm>
+ #define
+ this tells the directive to compiler to create symbolic constant the symbolic constant
+ is called Macro
+ all subsequent occurrences of macros in that source code will be replaced by its 
+ replacement text before the program is compiled
+ ex
+ #define PI 3.14
+ int main () {
+    int r = 5 ;
+    float area = PI * R* R ;
+ } 
+ # Identifiers
+ . both an identifier and a variable are the name alotted by users to a particular entity 
+ in a program
+ . The identifier is only used to identify an entity uniquely in a program at the 
+ time of a Execution whereas , a variable is a Name given to a Memory location ,
+ that is used to hold value
+ ex
+ float p , c , m (here Identifiers are p , c , m)
+ #keywords
+ . keywords are the words that have special meaning for the compiler 
+ . their words can be used as an identifiers 
+ . c++ has about 95v reserved words . i.e they have the special meaning for the compiler
+ identify thr keywords
+ int pcm (here identifiers are int, float etc)
+
+ #Main() function
+ . every c++ function starts executing with main 
+ . only 1 main function 
+ . return 0 , indicates successful  Execution of main
+ . int main (){ // start of the program
+    return 0 ; // end of the program
+ }   
+
+
+
