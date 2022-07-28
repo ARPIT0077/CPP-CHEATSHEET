@@ -1,0 +1,53 @@
+1. if
+// single if 
+int marks = 90;
+if(marks>80){  // prints when the condition is true
+    cout <<"let's party ! ";
+}
+2. if else block 
+suppose your condition is not ture and you want to execute something when the 
+condition is false ;
+// if else block 
+int marks = 70 '
+if(marks >90){
+    cout << "aaj taah party aaa";
+}
+else{
+    cout << "work hard , try nxt time ";
+
+}
+3.if elseif else
+// if lese block
+int marks = 70;
+
+if (marks>80){
+    cout <<"Let's party";
+}
+elseif ( marks > 90){
+    cout << "abhi kar skte hain party";
+}
+else{
+    cout << "work hard, try your luck nxt time";
+}
+4. MULTIPE IF BLOCKS 
+if - if block can we use when the conditions are independent 
+like electricity bill problem 
+
+5. ternary operators
+
+false // statement 2 will be executed
+condition ? statement 1 : statement 2 ,
+true // statement 1 will be executed
+
+6. switch case 
+switch(expressions){
+    case x;
+    // code block
+    break; 
+case y;
+// code block 
+ break;
+ 
+ default ;
+  // code block ;
+}
