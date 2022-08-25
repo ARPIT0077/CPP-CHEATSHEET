@@ -1,4 +1,3 @@
 # CHEATSHEET FOR THE C++
-IN this repo , i am just adding the syntaxs for the c++...
-
-so can my future self can will be in ease XD
+This consist of the all the syntax / concepts for all in c++..
+ideal for the thorough revision
